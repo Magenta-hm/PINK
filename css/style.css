@@ -516,6 +516,12 @@ td {
 	text-transform: uppercase;
 }
 
+.hit {
+	background-image: url(../img/hit.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
 .table-package b {
 	display: block;
 	font-size: 18px;
