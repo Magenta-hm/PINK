@@ -21,9 +21,7 @@
 					<li><a href="#">HTML Academy</a></li>
 				</ul>
 			</nav>
-		</header>
 
-		<main class="main-content">
 			<div class="container">
 				<h1 class="visually-hidden">Промо-предложение от Pink</h1>
 				<section class="promo">
@@ -57,7 +55,9 @@
 					</div>
 				</section>
 			</div>
+		</header>
 
+		<main class="main-content">
 			<div class="features container">
 				<p class="features-title">Устали от серости мегаполиса? Нам есть, что вам<br> предложить!</p>
 				<section class="features-details">
@@ -92,52 +92,56 @@
 						</li>
 					</ul>
 				</section>
-				<section class="features-columns">
+			</div>
+
+			<div class="descriptions container">
+				<section class="description-columns">
 					<h2 class="visually-hidden">Факты исследований</h2>
-					<div>
-						<img src="#.svg" width="" height="" alt="24 часа в сутки">
+					<div class="description-timer">
+						<img src="img/timer-main.png" width="298" height="345" alt="24 часа в сутки">
 					</div>
-					<div>
+					<div class="description-info">
 						<h3>Эффект на 24 часа!</h3>
-						<p>Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+						<p>Британские ученые провели исследования и доказали,&nbsp; что положительный эффект от использования приложения длится целые сутки!</p>
 						<a href="#">Узнать больше об исследовании</a>
 					</div>
 				</section>
 			</div>
+
 			<div class="info container">
 				<section class="info-reviews">
+					<h2 class="visually-hidden">Отзывы пользователей</h2>
+					<button class="button-prev" type="button" disabled><span class="visually-hidden">Предыдущий отзыв</span></button>
+					<button class="button-next" type="button"><span class="visually-hidden">Следующий отзыв</span></button>
 					<blockquote class="reviews-item slider-item">
-						<div class="reviews-image">
-							<img src="#svg" width="" height="" alt="Quotes">
-						</div>
-						<p>Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
-						<cite class="reviews-auhor">Николай Петров</cite>
-						<p>25 лет, водитель трамвая</p>
+						<p class="opinion">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
+						<cite class="reviews-autor">Николай Петров</cite>
+						<p class="data-autor">25 лет, водитель трамвая</p>
 					</blockquote>
 				</section>
 				<section class="info-package">
-					<h1>Распределение браузеров</h1>
-					<table class="">
-						<tr>
-							<td style="border: none;">&nbsp;</td>
-							<td><b>База</b> 1,99 usd</td>
-							<td><b>Стандарт</b> 1,99 usd</td>
-							<td><b>Анлим</b> 9,99 usd</td>
+					<h2 class="visually-hidden">Распределение браузеров</h2>
+					<table class="table-package">
+						<tr class="table-header">
+							<td style="border: none; background-color: transparent;">&nbsp;</td>
+							<td><b>База</b><br><span>1,99 usd</span></td>
+							<td><b>Стандарт</b><br><span>3,99 usd</span></td>
+							<td><b>Анлим</b><br><span>9,99 usd</span></td>
 						</tr>
 						<tr>
-							<td>Розовый фильтр</td>
+							<td class="packet">Розовый фильтр</td>
 							<td class="included"><span class="visually-hidden">в комплекте</span></td>
 							<td class="included"><span class="visually-hidden">в комплекте</span></td>
 							<td class="included"><span class="visually-hidden">в комплекте</span></td>
 						</tr>
 						<tr>
-							<td>Смайлики</td>
+							<td class="packet">Смайлики</td>
 							<td class="not-included"><span class="visually-hidden">не в комплекте</span></td>
 							<td class="included"><span class="visually-hidden">в комплекте</span></td>
 							<td class="included"><span class="visually-hidden">в комплекте</span></td>
 						</tr>
 						<tr>
-							<td>Комментарии</td>
+							<td class="packet">Комментарии</td>
 							<td class="not-included"><span class="visually-hidden">не в комплекте</span></td>
 							<td class="not-included"><span class="visually-hidden">не в комплекте</span></td>
 							<td class="included"><span class="visually-hidden">в комплекте</span></td>
@@ -147,7 +151,7 @@
 			</div>
 			<section class="communications container">
 				<h2 class="visually-hidden">Ответим на любые ваши вопросы</h2>
-				<p class="title">Остались вопросы? Свяжитесь с нами!</p>
+				<p class="communications-title">Остались вопросы? Свяжитесь с нами!</p>
 				<ul class="communications-items">
 					<li>
 						<h3>Звоните:</h3>
@@ -162,45 +166,40 @@
 						<p>mail@htmlacademy.ru</p>
 					</li>
 				</ul>
-				<div class="live-map">
-					<img src="#" width="" height="" alt="Как нас найти!">
-				</div>
 			</section>
+			<div class="live-map">
+				<h2 class="visually-hidden">Карта проезда</h2>
+			</div>
 		</main>
 
 		<footer class="main-footer">
 			<div class="container">
-				<a class="main-header-logo">
-					<img src="#" width="147" height="40" alt="Логотип «Pink»">
+				<a class="main-footer-logo">
+					<img src="img/logotype-bottom-desktop.png" width="147" height="40" alt="Логотип «Pink»">
 				</a>
 				<div class="footer-social">
 					<h2 class="visually-hidden">Мы в соцсетях</h2>
 					<ul class="social-items">
 						<li>
-							<a class="social-button" href="#">
+							<a class="social-button button-twitter" href="#">
 								<span class="visually-hidden">Twitter</span>
-								<svg></svg>
 							</a>
 						</li>
 						<li>
-							<a class="social-button" href="#">
+							<a class="social-button button-facebook" href="#">
 								<span class="visually-hidden">Facebook</span>
-								<svg></svg>
 							</a>
 						</li>
 						<li>
-							<a class="social-button" href="#">
+							<a class="social-button button-youtube" href="#">
 								<span class="visually-hidden">Youtube</span>
-								<svg></svg>
 							</a>
 						</li>
 					</ul>
 				</div>
-				<p class="footer-copyright">
-					<b>Разработано:</b> 
+				<p class="footer-copyright">Разработано
 					<a class="button htmlacademy-button" href="https://htmlacademy.ru">
 						<span class="visually-hidden">HTML Academy</span>
-						<svg></svg>
 					</a>
 				</p>
 			</div>
