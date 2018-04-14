@@ -27,6 +27,7 @@
 
 		<main class="inner-content">
 			<section class="panorama">
+				<h2 class="visually-hidden">Обзор приложения</h2>
 				<span class="panorama-label"></span>
 				<p class="panorama-post">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
 				<p class="panorama-image">
@@ -45,6 +46,7 @@
 				</div>
 			</section>
 			<section class="container photo-gallery">
+				<h2 class="visually-hidden">Как выглядят посты в приложении Pink</h2>
 				<ul class="photo-gallery-items">
 					<li>
 						<a href="#">
@@ -138,8 +140,42 @@
 					</li>
 				</ul>
 			</section>
-		</main>
 
+			<section class="filters container">
+				<h2 class="visually-hidden">Инструкция пользования фото-фильтрами</h2>
+				<p class="filters-post">Затмите их всех!<br>
+				Выкладывайте все, что накопилось в телефоне!</p>
+				<div class="filters-content">
+					<p class="filters-image">
+						<img src="img/photo-7-desktop.jpg" width="300" height="402" alt="">
+					</p>
+					<form class="filters-form" action="#" method="get" id="main-form">
+						<fieldset class="filter-install">
+							<legend class="visually-hidden">Фильтры</legend>
+							<ul class="filter-items">
+								<li class="filter-control">
+									<span class="filter-icon cut-icon"></span>
+									<div class="scale"></div>
+									<div class="toggle toggle-cut"></div>
+								</li>
+								<li class="filter-control">
+									<span class="filter-icon fill-icon"></span>
+									<div class="scale"></div>
+									<div class="toggle toggle-fill"></div>
+								</li>
+								<li class="filter-control">
+									<span class="filter-icon contrast-icon"></span>
+									<div class="scale"></div>
+									<div class="toggle toggle-contrast"></div>
+								</li>
+							</ul>
+						</fieldset>
+						<button class="btn btn-post" type="submit" value="Запостить">Запостить</button>
+						<button class="btn btn-cancel" type="submit" value="Отмена">Отмена</button>
+					</form>
+				</div>
+			</section>
+		</main>
 
 		<footer class="main-footer">
 			<div class="container">
